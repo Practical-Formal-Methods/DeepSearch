@@ -1,0 +1,15 @@
+This folder contains the following sub-folders:
+=>DefData:Data from attacks on Defended SVHN and CIFAR networks. The datasets are appended as suffixes to the files
+=>UndefData:Data from attacks on Undefended SVHN and CIFAR networks. The datasets are appended as suffixes to the files
+=>ImagenetData:Data from attacks on Inception v3 over imagenet.
+Each file is a pickled python dictionary which has the index of the attacked image as key, and a tuple of Success and queries used as the value. In case of SVHN and CIFAR, the index is the actual index of image in the respective validation sets. In ImageNet, the index is the index into the x_test array provided by the imgntWrapper file. For Refinement files, the second element is a list of queries and current l2 distance after each refinement step.
+
+Key:
+DS/DS_XE=DeepSearch(xent)
+DR=DeepSearch with Refinement
+DS_CW=DeepSearch(logit)
+PS/PS_XE=Parsimonious(xent)
+PS_CW=Parsimonious(logit)
+SM/Simba=Simple Blackbox Attack in pixel space
+BD/Bandits= Bandits Attack
+QLNES=Query Limited NES
