@@ -1,7 +1,7 @@
 
 # DeepSearch Code And Data
 
-This folder contains the files used for evaluating DeepSearch and other competing techniques. Due to github filesize restrictions, some large files containing the models to be attacked have been deleted. These can be found along with the entire code at this link:(Link to be added)
+This folder contains the files used for evaluating DeepSearch and other competing techniques. Due to github filesize restrictions, some large files containing the models to be attacked have been deleted. These can be found along with the entire code at this link:https://figshare.com/s/2faecff053c89b00e598
 
 The Top Level Directory Contains 5 Sub Directories, which are detailed hereafter. Curly braces are used to indicate multiple similar files, with each element inside curly braces indicate the partial name for one such file. Inside Curly braces -(hyphen) represents the empty string.
 
